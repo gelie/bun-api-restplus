@@ -5,7 +5,7 @@ from sqlalchemy.orm import relationship
 from flask_sqlalchemy import SQLAlchemy
 
 
-from app import db
+from core import db
 
 from flask import url_for
 

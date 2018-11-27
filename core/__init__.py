@@ -18,8 +18,8 @@ def create_app(config_class=Config):
     ma.init_app(app)
     # migrate.init_app(app, db)
 
-    from api import blueprint as api_bp
-    app.register_blueprint(api_bp)
+    from api import api
+    app.register_blueprint(api, url_prefix='/bungeni/api/v1')
 
     # if not app.debug and not app.testing:
     # # ... no changes to logging setup
