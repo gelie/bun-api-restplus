@@ -7,6 +7,7 @@ name = "pypi"
 flask-restplus = "*"
 flask-sqlalchemy = "*"
 python-dotenv = "*"
+webargs = "*"
 
 [dev-packages]
 
